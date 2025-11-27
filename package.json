@@ -1,0 +1,16 @@
+{
+  "name": "xfq-backend",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "@google/generative-ai": "^0.2.3"
+  }
+}
